@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+
+            android:layout_width="123dp"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/siam"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageView_ID"
+            android:layout_marginTop="3dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="171dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textView_name_ID"
+            android:layout_marginTop="29dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textView_age_ID"
+            android:layout_marginTop="85dp" android:layout_alignParentStart="true" android:layout_marginStart="176dp"
+            android:layout_below="@+id/textView_name_ID"
+    />
+</RelativeLayout>
